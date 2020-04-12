@@ -1,0 +1,2 @@
+C:\Users\Essam\Desktop\HOLOBIM 9 April\HOLOBIM\HoloBIM\New folder\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Essam\Desktop\HOLOBIM 9 April\HOLOBIM\HoloBIM\New folder\HoloBIM\HoloBIM.csproj;x86
