@@ -9,7 +9,7 @@ public class TransformMenu : MonoBehaviour, IInputClickHandler {
     public static TransformMenu instance;
 
     [HideInInspector]
-    public enum Mode { Move, Scale, Rotate, Reset, None, MiniMap, MaxiMap };
+    public enum Mode { Move, Scale, Rotate, Reset, None, MiniMap, MaxiMap, Identify, MoveLeft, RotateRight, RotateLeft, Anchor, Forward, Backward, Left, Right, MEP, Position };
 
     [HideInInspector]
     public Mode currentMode = Mode.None;

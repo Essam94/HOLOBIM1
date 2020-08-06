@@ -5,12 +5,12 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-HoloBIM.sln: D9959A7BF2C94881C22FC5F5E9B209E8
+HoloBIM.sln: 78D587B037A253966CA63305537DE26D
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 88AA7FF964823F6407718C34CA0DFE19
 HoloBIM\App.cs: DA0126AE717BD3E5A221BF6BE5D602CF
-HoloBIM\HoloBIM.csproj: 704364AD11CF0B8778DB156BDDD98398
+HoloBIM\HoloBIM.csproj: 882D25367F746F3AA3B57EBD1A6A39DB
 HoloBIM\HoloBIM.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
-HoloBIM\Package.appxmanifest: 0B735924A49BB4EAD45050FD84ECF4EC
+HoloBIM\Package.appxmanifest: A5FAE844B37D2DB68C5F7E2A8B00BAE9
 HoloBIM\project.json: 88AA7FF964823F6407718C34CA0DFE19
 HoloBIM\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 HoloBIM\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084

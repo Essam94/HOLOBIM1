@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: 486feb3808f865f4cac46e23e9c0cf0c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Basic Wall Wall 1 [5255]
+    100002: Cable Tray with Fittings Channel Cable Tray [505394]
+    100004: Cable Tray with Fittings Channel Cable Tray [505394].001
+    100006: Cable Tray with Fittings Channel Cable Tray [505394].002
+    100008: Cable Tray with Fittings Channel Cable Tray [505394].003
+    100010: Cable Tray with Fittings Channel Cable Tray [505394].004
+    100012: Cable Tray with Fittings Channel Cable Tray [505394].005
+    100014: Cable Tray with Fittings Channel Cable Tray [505394].006
+    100016: Cable Tray with Fittings Channel Cable Tray [505394].007
+    100018: Cable Tray with Fittings Channel Cable Tray [505394].008
+    100020: Cable Tray with Fittings Channel Cable Tray [505394].009
+    100022: Cable Tray with Fittings Channel Cable Tray [505394].010
+    100024: Cable Tray with Fittings Channel Cable Tray [505394].011
+    100026: Cable Tray with Fittings Channel Cable Tray [505394].012
+    100028: Cable Tray with Fittings Channel Cable Tray [505394].013
+    100030: Cable Tray with Fittings Channel Cable Tray [505394].014
+    100032: Cable Tray with Fittings Channel Cable Tray [505394].015
+    100034: Cable Tray with Fittings Channel Cable Tray [505394].016
+    100036: Cable Tray with Fittings Channel Cable Tray [505394].017
+    100038: Cable Tray with Fittings Channel Cable Tray [505394].018
+    100040: Cable Tray with Fittings Channel Cable Tray [505394].019
+    100042: Cable Tray with Fittings Channel Cable Tray [505394].020
+    100044: Cable Tray with Fittings Channel Cable Tray [505394].021
+    100046: Cable Tray with Fittings Channel Cable Tray [505394].022
+    100048: Cable Tray with Fittings Channel Cable Tray [505394].023
+    100050: Cable Tray with Fittings Channel Cable Tray [505394].024
+    100052: Cable Tray with Fittings Channel Cable Tray [505394].025
+    100054: Cable Tray with Fittings Channel Cable Tray [505394].026
+    100056: Cable Tray with Fittings Channel Cable Tray [505394].027
+    100058: Cable Tray with Fittings Channel Cable Tray [505394].028
+    100060: Cable Tray with Fittings Channel Cable Tray [505501]
+    100062: Cable Tray with Fittings Channel Cable Tray [505501].001
+    100064: Cable Tray with Fittings Channel Cable Tray [505501].002
+    100066: Cable Tray with Fittings Channel Cable Tray [505501].003
+    100068: Cable Tray with Fittings Channel Cable Tray [505501].004
+    100070: M_Channel Horizontal Bend Standard [505421]
+    100072: M_Channel Horizontal Bend Standard [505421].001
+    100074: M_Channel Horizontal Bend Standard [505421].002
+    100076: M_Channel Horizontal Bend Standard [505421].003
+    100078: M_Channel Horizontal Bend Standard [505421].004
+    100080: M_Channel Horizontal Bend Standard [505421].005
+    100082: M_Channel Horizontal Bend Standard [505421].006
+    100084: M_Channel Horizontal Bend Standard [505421].007
+    100086: M_Channel Horizontal Bend Standard [505421].008
+    100088: M_Channel Horizontal Bend Standard [505421].009
+    100090: M_Channel Horizontal Bend Standard [505421].010
+    100092: M_Channel Horizontal Bend Standard [505421].011
+    100094: M_Channel Horizontal Bend Standard [505421].012
+    100096: M_Channel Horizontal Bend Standard [505421].013
+    100098: M_Channel Horizontal Bend Standard [505421].014
+    100100: M_Channel Horizontal Bend Standard [505421].015
+    100102: M_Channel Horizontal Bend Standard [505421].016
+    100104: M_Channel Horizontal Bend Standard [505421].017
+    100106: M_Channel Horizontal Bend Standard [505421].018
+    100108: M_Channel Horizontal Bend Standard [505421].019
+    100110: M_Channel Horizontal Bend Standard [505421].020
+    100112: M_Channel Horizontal Bend Standard [505421].021
+    100114: M_Channel Horizontal Bend Standard [505421].022
+    100116: M_Channel Horizontal Bend Standard [505421].023
+    100118: M_Channel Horizontal Bend Standard [505421].024
+    100120: M_Channel Horizontal Bend Standard [505421].025
+    100122: M_Channel Horizontal Bend Standard [505421].026
+    100124: M_Plain Recessed Lighting Fixture 600x600 - 120 [539759]
+    100126: M_Plain Recessed Lighting Fixture 600x600 - 120 [539759]_115
+    100128: Mechanical_Equipment_RAD_Dbl 400 x 1000mm Long [314204]
+    100130: //RootNode
+    100132: Sockets2 Duplex Socket [641095]
+    100134: Sockets2 Duplex Socket [642168]
+    100136: Sockets2 Duplex Socket [642405]
+    100138: Sockets2 Duplex Socket [642405].001
+    100140: Windows_Sgl_Plain 1360x1210mm [358928]
+    400000: Basic Wall Wall 1 [5255]
+    400002: Cable Tray with Fittings Channel Cable Tray [505394]
+    400004: Cable Tray with Fittings Channel Cable Tray [505394].001
+    400006: Cable Tray with Fittings Channel Cable Tray [505394].002
+    400008: Cable Tray with Fittings Channel Cable Tray [505394].003
+    400010: Cable Tray with Fittings Channel Cable Tray [505394].004
+    400012: Cable Tray with Fittings Channel Cable Tray [505394].005
+    400014: Cable Tray with Fittings Channel Cable Tray [505394].006
+    400016: Cable Tray with Fittings Channel Cable Tray [505394].007
+    400018: Cable Tray with Fittings Channel Cable Tray [505394].008
+    400020: Cable Tray with Fittings Channel Cable Tray [505394].009
+    400022: Cable Tray with Fittings Channel Cable Tray [505394].010
+    400024: Cable Tray with Fittings Channel Cable Tray [505394].011
+    400026: Cable Tray with Fittings Channel Cable Tray [505394].012
+    400028: Cable Tray with Fittings Channel Cable Tray [505394].013
+    400030: Cable Tray with Fittings Channel Cable Tray [505394].014
+    400032: Cable Tray with Fittings Channel Cable Tray [505394].015
+    400034: Cable Tray with Fittings Channel Cable Tray [505394].016
+    400036: Cable Tray with Fittings Channel Cable Tray [505394].017
+    400038: Cable Tray with Fittings Channel Cable Tray [505394].018
+    400040: Cable Tray with Fittings Channel Cable Tray [505394].019
+    400042: Cable Tray with Fittings Channel Cable Tray [505394].020
+    400044: Cable Tray with Fittings Channel Cable Tray [505394].021
+    400046: Cable Tray with Fittings Channel Cable Tray [505394].022
+    400048: Cable Tray with Fittings Channel Cable Tray [505394].023
+    400050: Cable Tray with Fittings Channel Cable Tray [505394].024
+    400052: Cable Tray with Fittings Channel Cable Tray [505394].025
+    400054: Cable Tray with Fittings Channel Cable Tray [505394].026
+    400056: Cable Tray with Fittings Channel Cable Tray [505394].027
+    400058: Cable Tray with Fittings Channel Cable Tray [505394].028
+    400060: Cable Tray with Fittings Channel Cable Tray [505501]
+    400062: Cable Tray with Fittings Channel Cable Tray [505501].001
+    400064: Cable Tray with Fittings Channel Cable Tray [505501].002
+    400066: Cable Tray with Fittings Channel Cable Tray [505501].003
+    400068: Cable Tray with Fittings Channel Cable Tray [505501].004
+    400070: M_Channel Horizontal Bend Standard [505421]
+    400072: M_Channel Horizontal Bend Standard [505421].001
+    400074: M_Channel Horizontal Bend Standard [505421].002
+    400076: M_Channel Horizontal Bend Standard [505421].003
+    400078: M_Channel Horizontal Bend Standard [505421].004
+    400080: M_Channel Horizontal Bend Standard [505421].005
+    400082: M_Channel Horizontal Bend Standard [505421].006
+    400084: M_Channel Horizontal Bend Standard [505421].007
+    400086: M_Channel Horizontal Bend Standard [505421].008
+    400088: M_Channel Horizontal Bend Standard [505421].009
+    400090: M_Channel Horizontal Bend Standard [505421].010
+    400092: M_Channel Horizontal Bend Standard [505421].011
+    400094: M_Channel Horizontal Bend Standard [505421].012
+    400096: M_Channel Horizontal Bend Standard [505421].013
+    400098: M_Channel Horizontal Bend Standard [505421].014
+    400100: M_Channel Horizontal Bend Standard [505421].015
+    400102: M_Channel Horizontal Bend Standard [505421].016
+    400104: M_Channel Horizontal Bend Standard [505421].017
+    400106: M_Channel Horizontal Bend Standard [505421].018
+    400108: M_Channel Horizontal Bend Standard [505421].019
+    400110: M_Channel Horizontal Bend Standard [505421].020
+    400112: M_Channel Horizontal Bend Standard [505421].021
+    400114: M_Channel Horizontal Bend Standard [505421].022
+    400116: M_Channel Horizontal Bend Standard [505421].023
+    400118: M_Channel Horizontal Bend Standard [505421].024
+    400120: M_Channel Horizontal Bend Standard [505421].025
+    400122: M_Channel Horizontal Bend Standard [505421].026
+    400124: M_Plain Recessed Lighting Fixture 600x600 - 120 [539759]
+    400126: M_Plain Recessed Lighting Fixture 600x600 - 120 [539759]_115
+    400128: Mechanical_Equipment_RAD_Dbl 400 x 1000mm Long [314204]
+    400130: //RootNode
+    400132: Sockets2 Duplex Socket [641095]
+    400134: Sockets2 Duplex Socket [642168]
+    400136: Sockets2 Duplex Socket [642405]
+    400138: Sockets2 Duplex Socket [642405].001
+    400140: Windows_Sgl_Plain 1360x1210mm [358928]
+    2100000: No Name
+    2300000: Basic Wall Wall 1 [5255]
+    2300002: Cable Tray with Fittings Channel Cable Tray [505394]
+    2300004: Cable Tray with Fittings Channel Cable Tray [505394].001
+    2300006: Cable Tray with Fittings Channel Cable Tray [505394].002
+    2300008: Cable Tray with Fittings Channel Cable Tray [505394].003
+    2300010: Cable Tray with Fittings Channel Cable Tray [505394].004
+    2300012: Cable Tray with Fittings Channel Cable Tray [505394].005
+    2300014: Cable Tray with Fittings Channel Cable Tray [505394].006
+    2300016: Cable Tray with Fittings Channel Cable Tray [505394].007
+    2300018: Cable Tray with Fittings Channel Cable Tray [505394].008
+    2300020: Cable Tray with Fittings Channel Cable Tray [505394].009
+    2300022: Cable Tray with Fittings Channel Cable Tray [505394].010
+    2300024: Cable Tray with Fittings Channel Cable Tray [505394].011
+    2300026: Cable Tray with Fittings Channel Cable Tray [505394].012
+    2300028: Cable Tray with Fittings Channel Cable Tray [505394].013
+    2300030: Cable Tray with Fittings Channel Cable Tray [505394].014
+    2300032: Cable Tray with Fittings Channel Cable Tray [505394].015
+    2300034: Cable Tray with Fittings Channel Cable Tray [505394].016
+    2300036: Cable Tray with Fittings Channel Cable Tray [505394].017
+    2300038: Cable Tray with Fittings Channel Cable Tray [505394].018
+    2300040: Cable Tray with Fittings Channel Cable Tray [505394].019
+    2300042: Cable Tray with Fittings Channel Cable Tray [505394].020
+    2300044: Cable Tray with Fittings Channel Cable Tray [505394].021
+    2300046: Cable Tray with Fittings Channel Cable Tray [505394].022
+    2300048: Cable Tray with Fittings Channel Cable Tray [505394].023
+    2300050: Cable Tray with Fittings Channel Cable Tray [505394].024
+    2300052: Cable Tray with Fittings Channel Cable Tray [505394].025
+    2300054: Cable Tray with Fittings Channel Cable Tray [505394].026
+    2300056: Cable Tray with Fittings Channel Cable Tray [505394].027
+    2300058: Cable Tray with Fittings Channel Cable Tray [505394].028
+    2300060: Cable Tray with Fittings Channel Cable Tray [505501]
+    2300062: Cable Tray with Fittings Channel Cable Tray [505501].001
+    2300064: Cable Tray with Fittings Channel Cable Tray [505501].002
+    2300066: Cable Tray with Fittings Channel Cable Tray [505501].003
+    2300068: Cable Tray with Fittings Channel Cable Tray [505501].004
+    2300070: M_Channel Horizontal Bend Standard [505421]
+    2300072: M_Channel Horizontal Bend Standard [505421].001
+    2300074: M_Channel Horizontal Bend Standard [505421].002
+    2300076: M_Channel Horizontal Bend Standard [505421].003
+    2300078: M_Channel Horizontal Bend Standard [505421].004
+    2300080: M_Channel Horizontal Bend Standard [505421].005
+    2300082: M_Channel Horizontal Bend Standard [505421].006
+    2300084: M_Channel Horizontal Bend Standard [505421].007
+    2300086: M_Channel Horizontal Bend Standard [505421].008
+    2300088: M_Channel Horizontal Bend Standard [505421].009
+    2300090: M_Channel Horizontal Bend Standard [505421].010
+    2300092: M_Channel Horizontal Bend Standard [505421].011
+    2300094: M_Channel Horizontal Bend Standard [505421].012
+    2300096: M_Channel Horizontal Bend Standard [505421].013
+    2300098: M_Channel Horizontal Bend Standard [505421].014
+    2300100: M_Channel Horizontal Bend Standard [505421].015
+    2300102: M_Channel Horizontal Bend Standard [505421].016
+    2300104: M_Channel Horizontal Bend Standard [505421].017
+    2300106: M_Channel Horizontal Bend Standard [505421].018
+    2300108: M_Channel Horizontal Bend Standard [505421].019
+    2300110: M_Channel Horizontal Bend Standard [505421].020
+    2300112: M_Channel Horizontal Bend Standard [505421].021
+    2300114: M_Channel Horizontal Bend Standard [505421].022
+    2300116: M_Channel Horizontal Bend Standard [505421].023
+    2300118: M_Channel Horizontal Bend Standard [505421].024
+    2300120: M_Channel Horizontal Bend Standard [505421].025
+    2300122: M_Channel Horizontal Bend Standard [505421].026
+    2300124: M_Plain Recessed Lighting Fixture 600x600 - 120 [539759]
+    2300126: Mechanical_Equipment_RAD_Dbl 400 x 1000mm Long [314204]
+    2300128: Sockets2 Duplex Socket [641095]
+    2300130: Sockets2 Duplex Socket [642168]
+    2300132: Sockets2 Duplex Socket [642405]
+    2300134: Sockets2 Duplex Socket [642405].001
+    2300136: Windows_Sgl_Plain 1360x1210mm [358928]
+    3300000: Basic Wall Wall 1 [5255]
+    3300002: Cable Tray with Fittings Channel Cable Tray [505394]
+    3300004: Cable Tray with Fittings Channel Cable Tray [505394].001
+    3300006: Cable Tray with Fittings Channel Cable Tray [505394].002
+    3300008: Cable Tray with Fittings Channel Cable Tray [505394].003
+    3300010: Cable Tray with Fittings Channel Cable Tray [505394].004
+    3300012: Cable Tray with Fittings Channel Cable Tray [505394].005
+    3300014: Cable Tray with Fittings Channel Cable Tray [505394].006
+    3300016: Cable Tray with Fittings Channel Cable Tray [505394].007
+    3300018: Cable Tray with Fittings Channel Cable Tray [505394].008
+    3300020: Cable Tray with Fittings Channel Cable Tray [505394].009
+    3300022: Cable Tray with Fittings Channel Cable Tray [505394].010
+    3300024: Cable Tray with Fittings Channel Cable Tray [505394].011
+    3300026: Cable Tray with Fittings Channel Cable Tray [505394].012
+    3300028: Cable Tray with Fittings Channel Cable Tray [505394].013
+    3300030: Cable Tray with Fittings Channel Cable Tray [505394].014
+    3300032: Cable Tray with Fittings Channel Cable Tray [505394].015
+    3300034: Cable Tray with Fittings Channel Cable Tray [505394].016
+    3300036: Cable Tray with Fittings Channel Cable Tray [505394].017
+    3300038: Cable Tray with Fittings Channel Cable Tray [505394].018
+    3300040: Cable Tray with Fittings Channel Cable Tray [505394].019
+    3300042: Cable Tray with Fittings Channel Cable Tray [505394].020
+    3300044: Cable Tray with Fittings Channel Cable Tray [505394].021
+    3300046: Cable Tray with Fittings Channel Cable Tray [505394].022
+    3300048: Cable Tray with Fittings Channel Cable Tray [505394].023
+    3300050: Cable Tray with Fittings Channel Cable Tray [505394].024
+    3300052: Cable Tray with Fittings Channel Cable Tray [505394].025
+    3300054: Cable Tray with Fittings Channel Cable Tray [505394].026
+    3300056: Cable Tray with Fittings Channel Cable Tray [505394].027
+    3300058: Cable Tray with Fittings Channel Cable Tray [505394].028
+    3300060: Cable Tray with Fittings Channel Cable Tray [505501]
+    3300062: Cable Tray with Fittings Channel Cable Tray [505501].001
+    3300064: Cable Tray with Fittings Channel Cable Tray [505501].002
+    3300066: Cable Tray with Fittings Channel Cable Tray [505501].003
+    3300068: Cable Tray with Fittings Channel Cable Tray [505501].004
+    3300070: M_Channel Horizontal Bend Standard [505421]
+    3300072: M_Channel Horizontal Bend Standard [505421].001
+    3300074: M_Channel Horizontal Bend Standard [505421].002
+    3300076: M_Channel Horizontal Bend Standard [505421].003
+    3300078: M_Channel Horizontal Bend Standard [505421].004
+    3300080: M_Channel Horizontal Bend Standard [505421].005
+    3300082: M_Channel Horizontal Bend Standard [505421].006
+    3300084: M_Channel Horizontal Bend Standard [505421].007
+    3300086: M_Channel Horizontal Bend Standard [505421].008
+    3300088: M_Channel Horizontal Bend Standard [505421].009
+    3300090: M_Channel Horizontal Bend Standard [505421].010
+    3300092: M_Channel Horizontal Bend Standard [505421].011
+    3300094: M_Channel Horizontal Bend Standard [505421].012
+    3300096: M_Channel Horizontal Bend Standard [505421].013
+    3300098: M_Channel Horizontal Bend Standard [505421].014
+    3300100: M_Channel Horizontal Bend Standard [505421].015
+    3300102: M_Channel Horizontal Bend Standard [505421].016
+    3300104: M_Channel Horizontal Bend Standard [505421].017
+    3300106: M_Channel Horizontal Bend Standard [505421].018
+    3300108: M_Channel Horizontal Bend Standard [505421].019
+    3300110: M_Channel Horizontal Bend Standard [505421].020
+    3300112: M_Channel Horizontal Bend Standard [505421].021
+    3300114: M_Channel Horizontal Bend Standard [505421].022
+    3300116: M_Channel Horizontal Bend Standard [505421].023
+    3300118: M_Channel Horizontal Bend Standard [505421].024
+    3300120: M_Channel Horizontal Bend Standard [505421].025
+    3300122: M_Channel Horizontal Bend Standard [505421].026
+    3300124: M_Plain Recessed Lighting Fixture 600x600 - 120 [539759]
+    3300126: Mechanical_Equipment_RAD_Dbl 400 x 1000mm Long [314204]
+    3300128: Sockets2 Duplex Socket [641095]
+    3300130: Sockets2 Duplex Socket [642168]
+    3300132: Sockets2 Duplex Socket [642405]
+    3300134: Sockets2 Duplex Socket [642405].001
+    3300136: Windows_Sgl_Plain 1360x1210mm [358928]
+    4300000: Cable Tray with Fittings Channel Cable Tray [505394]
+    4300002: M_Channel Horizontal Bend Standard [505421]
+    4300004: Cable Tray with Fittings Channel Cable Tray [505501]
+    4300006: M_Plain Recessed Lighting Fixture 600x600 - 120 [539759]
+    4300008: Sockets2 Duplex Socket [641095]
+    4300010: Basic Wall Wall 1 [5255]
+    4300012: Cable Tray with Fittings Channel Cable Tray [505394].001
+    4300014: Cable Tray with Fittings Channel Cable Tray [505394].002
+    4300016: M_Channel Horizontal Bend Standard [505421].001
+    4300018: Cable Tray with Fittings Channel Cable Tray [505501].001
+    4300020: Cable Tray with Fittings Channel Cable Tray [505501].002
+    4300022: Cable Tray with Fittings Channel Cable Tray [505501].003
+    4300024: Sockets2 Duplex Socket [642405].001
+    4300026: Mechanical_Equipment_RAD_Dbl 400 x 1000mm Long [314204]
+    4300028: Windows_Sgl_Plain 1360x1210mm [358928]
+    4300030: Cable Tray with Fittings Channel Cable Tray [505501].004
+    4300032: Cable Tray with Fittings Channel Cable Tray [505394].003
+    4300034: M_Channel Horizontal Bend Standard [505421].002
+    4300036: Cable Tray with Fittings Channel Cable Tray [505394].004
+    4300038: M_Channel Horizontal Bend Standard [505421].003
+    4300040: Cable Tray with Fittings Channel Cable Tray [505394].005
+    4300042: Cable Tray with Fittings Channel Cable Tray [505394].006
+    4300044: M_Channel Horizontal Bend Standard [505421].004
+    4300046: Cable Tray with Fittings Channel Cable Tray [505394].008
+    4300048: Cable Tray with Fittings Channel Cable Tray [505394].007
+    4300050: M_Channel Horizontal Bend Standard [505421].006
+    4300052: M_Channel Horizontal Bend Standard [505421].005
+    4300054: Cable Tray with Fittings Channel Cable Tray [505394].012
+    4300056: Cable Tray with Fittings Channel Cable Tray [505394].011
+    4300058: Cable Tray with Fittings Channel Cable Tray [505394].010
+    4300060: Cable Tray with Fittings Channel Cable Tray [505394].009
+    4300062: M_Channel Horizontal Bend Standard [505421].010
+    4300064: M_Channel Horizontal Bend Standard [505421].009
+    4300066: M_Channel Horizontal Bend Standard [505421].008
+    4300068: M_Channel Horizontal Bend Standard [505421].007
+    4300070: Cable Tray with Fittings Channel Cable Tray [505394].016
+    4300072: Cable Tray with Fittings Channel Cable Tray [505394].015
+    4300074: Cable Tray with Fittings Channel Cable Tray [505394].014
+    4300076: Cable Tray with Fittings Channel Cable Tray [505394].013
+    4300078: M_Channel Horizontal Bend Standard [505421].014
+    4300080: M_Channel Horizontal Bend Standard [505421].013
+    4300082: M_Channel Horizontal Bend Standard [505421].012
+    4300084: M_Channel Horizontal Bend Standard [505421].011
+    4300086: Cable Tray with Fittings Channel Cable Tray [505394].020
+    4300088: Cable Tray with Fittings Channel Cable Tray [505394].019
+    4300090: Cable Tray with Fittings Channel Cable Tray [505394].018
+    4300092: Cable Tray with Fittings Channel Cable Tray [505394].017
+    4300094: M_Channel Horizontal Bend Standard [505421].018
+    4300096: M_Channel Horizontal Bend Standard [505421].017
+    4300098: M_Channel Horizontal Bend Standard [505421].016
+    4300100: M_Channel Horizontal Bend Standard [505421].015
+    4300102: Cable Tray with Fittings Channel Cable Tray [505394].024
+    4300104: Cable Tray with Fittings Channel Cable Tray [505394].023
+    4300106: Cable Tray with Fittings Channel Cable Tray [505394].022
+    4300108: Cable Tray with Fittings Channel Cable Tray [505394].021
+    4300110: M_Channel Horizontal Bend Standard [505421].022
+    4300112: M_Channel Horizontal Bend Standard [505421].021
+    4300114: M_Channel Horizontal Bend Standard [505421].020
+    4300116: M_Channel Horizontal Bend Standard [505421].019
+    4300118: Cable Tray with Fittings Channel Cable Tray [505394].028
+    4300120: Cable Tray with Fittings Channel Cable Tray [505394].027
+    4300122: Cable Tray with Fittings Channel Cable Tray [505394].026
+    4300124: Cable Tray with Fittings Channel Cable Tray [505394].025
+    4300126: M_Channel Horizontal Bend Standard [505421].026
+    4300128: M_Channel Horizontal Bend Standard [505421].025
+    4300130: M_Channel Horizontal Bend Standard [505421].024
+    4300132: M_Channel Horizontal Bend Standard [505421].023
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

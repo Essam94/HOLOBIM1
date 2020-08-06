@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBIM", "HoloBIM.csproj", "{9451E2DB-00A4-2B88-A56D-8DC3310D0355}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5CAE48DE-D6F9-30DA-5509-1B3BD68329D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBIM.Editor", "HoloBIM.Editor.csproj", "{F8236BBD-DB3C-E854-1398-01E6B24E3701}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{C66707EB-E955-F639-494F-6DBC60E3BC6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +11,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9451E2DB-00A4-2B88-A56D-8DC3310D0355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9451E2DB-00A4-2B88-A56D-8DC3310D0355}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9451E2DB-00A4-2B88-A56D-8DC3310D0355}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9451E2DB-00A4-2B88-A56D-8DC3310D0355}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8236BBD-DB3C-E854-1398-01E6B24E3701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8236BBD-DB3C-E854-1398-01E6B24E3701}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8236BBD-DB3C-E854-1398-01E6B24E3701}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8236BBD-DB3C-E854-1398-01E6B24E3701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAE48DE-D6F9-30DA-5509-1B3BD68329D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAE48DE-D6F9-30DA-5509-1B3BD68329D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAE48DE-D6F9-30DA-5509-1B3BD68329D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAE48DE-D6F9-30DA-5509-1B3BD68329D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66707EB-E955-F639-494F-6DBC60E3BC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66707EB-E955-F639-494F-6DBC60E3BC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66707EB-E955-F639-494F-6DBC60E3BC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66707EB-E955-F639-494F-6DBC60E3BC6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

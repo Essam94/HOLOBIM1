@@ -229,6 +229,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AnnotateScript.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\SceneContentAdjuster.cs" />
     <Compile Include="Assets\HoloToolkit\Input\Scripts\Cursor\AnimatedCursor.cs" />
@@ -710,10 +711,23 @@
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UICollection.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityScaler.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs" />
-    <Compile Include="Assets\MiniMapOption.cs" />
+    <Compile Include="Assets\LoadAnnotation.cs" />
+    <Compile Include="Assets\MEP.cs" />
+    <Compile Include="Assets\Pins.cs" />
+    <Compile Include="Assets\pos.cs" />
+    <Compile Include="Assets\Scripts\Anchor.cs" />
+    <Compile Include="Assets\Scripts\Backward.cs" />
+    <Compile Include="Assets\Scripts\Forward.cs" />
+    <Compile Include="Assets\Scripts\identifyRoom.cs" />
     <Compile Include="Assets\Scripts\LazyPriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\Left.cs" />
     <Compile Include="Assets\Scripts\MeshAnalyzer.cs" />
     <Compile Include="Assets\Scripts\MiniMap.cs" />
+    <Compile Include="Assets\Scripts\MiniMapOption.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript1.cs" />
+    <Compile Include="Assets\Scripts\Positon.cs" />
+    <Compile Include="Assets\Scripts\Right.cs" />
     <Compile Include="Assets\Scripts\RoomIdentifier.cs" />
     <Compile Include="Assets\Scripts\ScanManager.cs" />
     <Compile Include="Assets\Scripts\ScanProgress.cs" />

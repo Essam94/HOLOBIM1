@@ -5,7 +5,7 @@ VisualStudioVersion = 15.9.28307.1064
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBIM", "HoloBIM\HoloBIM.csproj", "{13A45C13-3265-47B8-BC48-A553B569DF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\Users\Essam\Desktop\HOLOBIM 9 April\HOLOBIM\HoloBIM\New folder\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\Users\Essam\Desktop\HOLOBIM 9 April\HOLOBIM\HoloBIM\New folder\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,29 +47,29 @@ Global
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.ActiveCfg = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Build.0 = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Deploy.0 = Release|x86
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Debug|ARM.ActiveCfg = Debug|ARM
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Debug|ARM.Build.0 = Debug|ARM
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Debug|x64.ActiveCfg = Debug|x64
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Debug|x64.Build.0 = Debug|x64
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Debug|x86.ActiveCfg = Debug|x86
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Debug|x86.Build.0 = Debug|x86
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Master|ARM.ActiveCfg = Master|ARM
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Master|ARM.Build.0 = Master|ARM
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Master|x64.ActiveCfg = Master|x64
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Master|x64.Build.0 = Master|x64
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Master|x86.ActiveCfg = Master|x86
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Master|x86.Build.0 = Master|x86
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Release|ARM.ActiveCfg = Release|ARM
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Release|ARM.Build.0 = Release|ARM
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Release|x64.ActiveCfg = Release|x64
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Release|x64.Build.0 = Release|x64
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Release|x86.ActiveCfg = Release|x86
-		{824AA64B-5E0C-48E0-99A3-9CDBEBFE0942}.Release|x86.Build.0 = Release|x86
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Debug|ARM.Build.0 = Debug|ARM
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Debug|x64.ActiveCfg = Debug|x64
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Debug|x64.Build.0 = Debug|x64
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Debug|x86.ActiveCfg = Debug|x86
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Debug|x86.Build.0 = Debug|x86
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Master|ARM.ActiveCfg = Master|ARM
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Master|ARM.Build.0 = Master|ARM
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Master|x64.ActiveCfg = Master|x64
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Master|x64.Build.0 = Master|x64
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Master|x86.ActiveCfg = Master|x86
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Master|x86.Build.0 = Master|x86
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Release|ARM.ActiveCfg = Release|ARM
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Release|ARM.Build.0 = Release|ARM
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Release|x64.ActiveCfg = Release|x64
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Release|x64.Build.0 = Release|x64
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Release|x86.ActiveCfg = Release|x86
+		{C222AC80-785F-4D01-A9D4-4BCA2BFF1A0D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4D19904C-3F43-4F7D-8EC2-BEA3D8D1380F}
+		SolutionGuid = {33CE3FB8-D5FC-401B-ACBA-847419E346C6}
 	EndGlobalSection
 EndGlobal

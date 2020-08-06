@@ -138,7 +138,7 @@ public class ScanManager : Singleton<ScanManager>
             request.id.handle = surfaceEntry.id;
             request.outputMesh = surfaceEntry.gameObject.GetComponent<MeshFilter>();
             request.outputAnchor = surfaceEntry.gameObject.GetComponent<UnityEngine.XR.WSA.WorldAnchor>();
-            request.trianglesPerCubicMeter = 500.0f;
+            request.trianglesPerCubicMeter = 2000.0f;
 
             try
             {

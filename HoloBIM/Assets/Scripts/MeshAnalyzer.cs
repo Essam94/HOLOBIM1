@@ -28,7 +28,7 @@ public class MeshAnalyzer : Singleton<MeshAnalyzer>
 
     private static readonly Vector3 DOWN = Vector3.down;
     private static readonly Vector3 UP = Vector3.up;
-
+    public Plane bigWall1, bigWall2, smallWall1, smallWall2;
     private HashSet<Line> downNormals = new HashSet<Line>();
     private HashSet<Line> upNormals = new HashSet<Line>();
     private HashSet<Line> horizontalNormals = new HashSet<Line>();
@@ -115,26 +115,14 @@ public class MeshAnalyzer : Singleton<MeshAnalyzer>
             }
             yield return null;
         }
-
-        this.InstructionTextMesh.text = string.Format("Normals categorized! Up's: " + upNormals.Count);
-        this.InstructionTextMesh.text = string.Format(" Down's: " + downNormals.Count);
-        this.InstructionTextMesh.text = string.Format(" Horizontal's: " + horizontalNormals.Count);
-        yield return null;
-
         foundWalls = FindWallsFromNormals(horizontalNormals);
 
-        yield return null;
 
         FindFloorAndCeiling(upNormals, downNormals);
 
         CalculateRoomDimensions();
 
         state = State.Finished;
-       
-
-        
-  
-
     }
     
 
@@ -285,7 +273,7 @@ public class MeshAnalyzer : Singleton<MeshAnalyzer>
 
         /** calculate all corner points of the room **/
 
-        Plane bigWall1, bigWall2, smallWall1, smallWall2;
+        
         // the bigger walls are the ones with the smaller distance between them 
         if (mainDist < secDist)
         {

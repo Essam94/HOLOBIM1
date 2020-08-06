@@ -4,12 +4,13 @@ using UnityEngine;
 using HoloToolkit.Unity;
 using System.Linq;
 using System;
+using UnityEngine.XR.WSA;
 
 public class RoomIdentifier : Singleton<RoomIdentifier>
 {
 
     [Tooltip("Amount of tests performed for each wall.")]
-    public int sensitivity = 200;
+    public int sensitivity = 100;
 
     [Tooltip("Length of the scan probe. 0.2f means the probe start 10cm before the wall and ends 10cm after the wall.")]
     public float probeDepth = 0.4f;
@@ -31,36 +32,42 @@ public class RoomIdentifier : Singleton<RoomIdentifier>
     private MeshAnalyzer analyzer;
     private MiniMap MiniMAP;
 
-    private PhysicalRoom physicalRoom;
+    public PhysicalRoom physicalRoom;
     private List<VirtualRoom> virtualRooms = new List<VirtualRoom>();
     public VirtualRoomBehavior[] vRoomBhvrs;
 
     GameObject Rooms;
     GameObject FloorPlan;
+    Transform Map;
+    Transform ooms;
+    GameObject Axis;
 
 
     void Start()
     {
+        Map = MiniMap.Instance.transform.Find("Rooms");
         analyzer = MeshAnalyzer.Instance;
         MiniMAP = MiniMap.Instance;
-        FloorPlan= MiniMap.Instance.transform.Find("FloorPlan").gameObject;
+        FloorPlan = MiniMap.Instance.transform.Find("FloorPlan").gameObject;
         Rooms = MiniMap.Instance.transform.Find("Rooms").gameObject;
-
-
+        ooms = MiniMap.Instance.transform.Find("GameObject");
+        
 
     }
 
     void Update()
     {
-        if (this.state == State.Inactive && analyzer.state == MeshAnalyzer.State.Finished && MiniMAP.state == MiniMap.State.MAXI_MAP )
+
+        if (this.state == State.Inactive && analyzer.state == MeshAnalyzer.State.Finished && MiniMAP.state == MiniMap.State.MAXI_MAP)
         {
 
             this.state = State.InProgress;
+            Map.transform.gameObject.SetActive(false);
             vr = IdentifyRoom();
             AlignVirtualAndPhysicalSpace(vr);
             ScanManager.Instance.hideSurfaceMesh();
             ScanProgress.Instance.InstructionTextMesh.text = string.Format(vr.IdentifyMessage);
- 
+
 
         }
 
@@ -129,45 +136,39 @@ public class RoomIdentifier : Singleton<RoomIdentifier>
                 vr,
                 physicalRoom.CalculateDifference(vr)));
         }
-        
+
         roomDiffList.Sort((pair1, pair2) => pair1.Value.CompareTo(pair2.Value));
 
-        if (roomDiffList[0].Value == float.MaxValue)
-        {
-            ScanProgress.Instance.InstructionTextMesh.text = string.Format("Error. Room not identified.");
-            throw new Exception("Could not identify room.");
-        }
-
-        return roomDiffList[0].Key;
+       // if (roomDiffList[0].Value == float.MaxValue)
+        //{
+        //    ScanProgress.Instance.InstructionTextMesh.text = string.Format("Error. Room not identified.");
+        //    throw new Exception("Could not identify room.");
+        //}
+        return virtualRooms[0];
+       //return roomDiffList[0].Key;
     }
 
     public void AlignVirtualAndPhysicalSpace(VirtualRoom vr)
     {
-        
-        Transform floorPlan = MiniMAP.transform.Find("FloorPlan");
-
-        foreach ( VirtualRoomBehavior v in vRoomBhvrs)
+        foreach (VirtualRoomBehavior v in vRoomBhvrs)
         {
-            if (v.room != vr) { v.gameObject.transform.gameObject.SetActive(false); }
+            if (v.room != vr) { v.gameObject.transform.parent.gameObject.SetActive(false); }
         }
-
+        Transform floorPlan = MiniMAP.transform.Find("FloorPlan");
         // rotate
         Vector3[] corners = physicalRoom.RoomCorners();
         Vector3 ph_rotation = ((corners[1] - corners[0]) + (corners[2] - corners[3]));
         Vector3[] vcorners = vr.RoomCorners();
         Vector3 vr_rotation = ((vcorners[1] - vcorners[0]) + (vcorners[2] - vcorners[3]));
-        floorPlan.Rotate(Quaternion.FromToRotation(vr_rotation, ph_rotation).eulerAngles);
         if (vr.betterRotated)
         {
             floorPlan.Rotate(Quaternion.AngleAxis(180, Vector3.up).eulerAngles);
         }
-
-        // translate
-
-        floorPlan.position -= vr.Transform.position;
-        //vr.Transform.position = corners[0];
-        floorPlan.position += physicalRoom.RoomCorners()[(!vr.betterRotated) ? 0 : 2];
-
+        vr.Transform.parent.localPosition = corners[0] - new Vector3(-0.175f, -0.09f, 0.1f);
+        vr.Transform.parent.rotation = Quaternion.Euler(0, -2f, 0);
+       // vr.Transform.parent.localScale = MeshAnalyzer.Instance.roomDimensions / 9f;
+        //floorPlan.position -= vr.Transform.position
+        //floorPlan.position += physicalRoom.RoomCorners()[(!vr.betterRotated) ? 0 : 2];
         MiniMap.Instance.Activate();
     }
 

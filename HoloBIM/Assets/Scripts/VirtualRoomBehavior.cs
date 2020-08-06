@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,7 +20,7 @@ public class VirtualRoomBehavior : MonoBehaviour
     }
 }
 
-public class VirtualRoom : Room
+public class VirtualRoom : Room 
 {
     VirtualRoomBehavior behavior;
     public bool betterRotated = false;
@@ -85,4 +86,5 @@ public class VirtualRoom : Room
     {
         get { return behavior.identifyMessage; }
     }
+
 }

@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{824aa64b-5e0c-48e0-99a3-9cdbebfe0942}</ProjectGuid>
+    <ProjectGuid>{c222ac80-785f-4d01-a9d4-4bca2bff1a0d}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -352,6 +352,9 @@
     <SDKReference Include="WindowsTeam, Version=10.0.18362.0"/>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(UnityProjectDir)Assets\AnnotateScript.cs">
+      <Link>AnnotateScript.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs">
       <Link>HoloToolkit\Boundary\Scripts\BoundaryManager.cs</Link>
     </Compile>
@@ -1795,17 +1798,56 @@
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs">
       <Link>HoloToolkit\UX\Scripts\UsabilityUtilities.cs</Link>
     </Compile>
-    <Compile Include="$(UnityProjectDir)Assets\MiniMapOption.cs">
-      <Link>MiniMapOption.cs</Link>
+    <Compile Include="$(UnityProjectDir)Assets\LoadAnnotation.cs">
+      <Link>LoadAnnotation.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\MEP.cs">
+      <Link>MEP.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Pins.cs">
+      <Link>Pins.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\pos.cs">
+      <Link>pos.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\Anchor.cs">
+      <Link>Scripts\Anchor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\Backward.cs">
+      <Link>Scripts\Backward.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\Forward.cs">
+      <Link>Scripts\Forward.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\identifyRoom.cs">
+      <Link>Scripts\identifyRoom.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\LazyPriorityQueue.cs">
       <Link>Scripts\LazyPriorityQueue.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\Left.cs">
+      <Link>Scripts\Left.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\MeshAnalyzer.cs">
       <Link>Scripts\MeshAnalyzer.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\MiniMap.cs">
       <Link>Scripts\MiniMap.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\MiniMapOption.cs">
+      <Link>Scripts\MiniMapOption.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\NewBehaviourScript.cs">
+      <Link>Scripts\NewBehaviourScript.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\NewBehaviourScript1.cs">
+      <Link>Scripts\NewBehaviourScript1.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\Positon.cs">
+      <Link>Scripts\Positon.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\Right.cs">
+      <Link>Scripts\Right.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\RoomIdentifier.cs">
       <Link>Scripts\RoomIdentifier.cs</Link>

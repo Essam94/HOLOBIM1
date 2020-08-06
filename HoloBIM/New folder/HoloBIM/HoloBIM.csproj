@@ -355,7 +355,7 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\Essam\Desktop\HOLOBIM 9 April\HOLOBIM\HoloBIM\New folder\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{824aa64b-5e0c-48e0-99a3-9cdbebfe0942}</Project>
+      <Project>{c222ac80-785f-4d01-a9d4-4bca2bff1a0d}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>

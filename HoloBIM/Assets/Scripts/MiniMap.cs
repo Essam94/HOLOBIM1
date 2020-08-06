@@ -3,6 +3,7 @@ using HoloToolkit.Unity.SpatialMapping;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.WSA;
 
 public class MiniMap : Singleton<MiniMap>
 {
@@ -19,7 +20,7 @@ public class MiniMap : Singleton<MiniMap>
 
     private GameObject player;
     private MeshRenderer[] renderers;
-    Vector3 targetPosition;
+   public  Vector3 targetPosition;
 
     void Start()
     {
@@ -54,8 +55,9 @@ public class MiniMap : Singleton<MiniMap>
         switch (state)
         {
             case State.MAXI_MAP:
-                foreach (LineRenderer rend in GetComponentsInChildren<LineRenderer>())
-                    rend.widthMultiplier = Mathf.Lerp(transitionStartLineWidth, 0.05f, 1);
+             
+              
+
                 break;
             case State.MINI_MAP:
                 transform.localScale = Vector3.Lerp(transitionStartScale, Vector3.one / tableScaleFactor, transitionProgress);
