@@ -139,13 +139,13 @@ public class RoomIdentifier : Singleton<RoomIdentifier>
 
         roomDiffList.Sort((pair1, pair2) => pair1.Value.CompareTo(pair2.Value));
 
-       // if (roomDiffList[0].Value == float.MaxValue)
-        //{
-        //    ScanProgress.Instance.InstructionTextMesh.text = string.Format("Error. Room not identified.");
-        //    throw new Exception("Could not identify room.");
-        //}
-        return virtualRooms[0];
-       //return roomDiffList[0].Key;
+        if (roomDiffList[0].Value == float.MaxValue)
+        {
+            ScanProgress.Instance.InstructionTextMesh.text = string.Format("Error. Room not identified.");
+            throw new Exception("Could not identify room.");
+        }
+        //return virtualRooms[0];
+       return roomDiffList[0].Key;
     }
 
     public void AlignVirtualAndPhysicalSpace(VirtualRoom vr)
@@ -166,7 +166,7 @@ public class RoomIdentifier : Singleton<RoomIdentifier>
         }
         vr.Transform.parent.localPosition = corners[0] - new Vector3(-0.175f, -0.09f, 0.1f);
         vr.Transform.parent.rotation = Quaternion.Euler(0, -2f, 0);
-       // vr.Transform.parent.localScale = MeshAnalyzer.Instance.roomDimensions / 9f;
+        vr.Transform.parent.localScale = MeshAnalyzer.Instance.roomDimensions / 9f;
         //floorPlan.position -= vr.Transform.position
         //floorPlan.position += physicalRoom.RoomCorners()[(!vr.betterRotated) ? 0 : 2];
         MiniMap.Instance.Activate();
